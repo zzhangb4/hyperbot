@@ -1,8 +1,7 @@
-const lichessBotName = process.env.BOT_NAME || "RobotPatzer"
-// const lichessBotName2 = process.env.BOT_NAME_2 || "BlazikenBot2000"
-// const lichessBotName = process.env.BOT_NAME || "HyperBotPatzer"
+const lichessBotName = process.env.BOT_NAME || "bot"
 const engineThreads = process.env.ENGINE_THREADS || "1"
 const engineHash = process.env.ENGINE_Hash || "64"
+const engineContempt = process.env.ENGINE_CONTEMPT || "24"
 const engineMoveOverhead = process.env.ENGINE_MOVE_OVERHEAD || "5000"
 const engineContempt = process.env.ENGINE_CONTEMPT || "24" // 100
 const generalTimeout = parseInt(process.env.GENERAL_TIMEOUT || "5")
